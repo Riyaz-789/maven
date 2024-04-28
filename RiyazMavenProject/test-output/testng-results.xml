@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-08T10:37:45 IST" name="Suite" finished-at="2024-04-08T10:38:00 IST" duration-ms="15080">
+    <groups>
+    </groups>
+    <test started-at="2024-04-08T10:37:45 IST" name="FirefoxTesting" finished-at="2024-04-08T10:37:55 IST" duration-ms="9717">
+      <class name="com.crossBrowser.CrossBrowser">
+        <test-method is-config="true" signature="cross(java.lang.String)[pri:0, instance:com.crossBrowser.CrossBrowser@5b1669c0]" started-at="2024-04-08T10:37:45 IST" name="cross" finished-at="2024-04-08T10:37:52 IST" duration-ms="6723" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fire]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cross -->
+        <test-method signature="getTitle()[pri:0, instance:com.crossBrowser.CrossBrowser@5b1669c0]" started-at="2024-04-08T10:37:52 IST" name="getTitle" finished-at="2024-04-08T10:37:55 IST" duration-ms="2912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+      </class> <!-- com.crossBrowser.CrossBrowser -->
+    </test> <!-- FirefoxTesting -->
+    <test started-at="2024-04-08T10:37:55 IST" name="chromeTesting" finished-at="2024-04-08T10:38:00 IST" duration-ms="5278">
+      <class name="com.crossBrowser.CrossBrowser">
+        <test-method is-config="true" signature="cross(java.lang.String)[pri:0, instance:com.crossBrowser.CrossBrowser@2d901eb0]" started-at="2024-04-08T10:37:55 IST" name="cross" finished-at="2024-04-08T10:37:59 IST" duration-ms="4775" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cross -->
+        <test-method signature="getTitle()[pri:0, instance:com.crossBrowser.CrossBrowser@2d901eb0]" started-at="2024-04-08T10:37:59 IST" name="getTitle" finished-at="2024-04-08T10:38:00 IST" duration-ms="495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+      </class> <!-- com.crossBrowser.CrossBrowser -->
+    </test> <!-- chromeTesting -->
+  </suite> <!-- Suite -->
+</testng-results>
